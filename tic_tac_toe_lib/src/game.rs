@@ -1,3 +1,5 @@
+// NOTE 07: Public type. It can be created only through parse.
+
 use crate::game_state::{deserialize_game_state, GameState};
 use crate::settings::parse;
 use crate::state_calculation::calculate_result;

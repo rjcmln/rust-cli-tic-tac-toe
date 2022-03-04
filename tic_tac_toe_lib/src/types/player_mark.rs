@@ -1,3 +1,5 @@
+// NOTE 01: Enum type that can be created only through parse. Dynamic iteration supported too.
+
 use crate::types::errors::TicTacToeError;
 use anyhow::bail;
 use enum_iterator::IntoEnumIterator;
@@ -66,7 +68,6 @@ fn test_parse_wrong_string() {
     let _pm = parse(" abc ").unwrap();
 }
 
-// TODO: maybe remove, it should be tested through settings_rules.test_get_game_settings_rules
 #[test]
 fn test_business_rules() {
     assert_eq!(DEFAULT_FIRST_PLAYER_MARK, PlayerMark::X);

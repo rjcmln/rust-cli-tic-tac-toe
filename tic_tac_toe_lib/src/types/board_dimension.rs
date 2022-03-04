@@ -1,3 +1,5 @@
+// NOTE 02: u8 type with constraints. It can be created only through parse.
+
 use crate::types::errors::TicTacToeError;
 use anyhow::bail;
 
@@ -88,7 +90,6 @@ fn test_parse_convert_max_value() {
     assert_eq!(bd, MAX_VALUE);
 }
 
-// TODO: maybe remove, it should be tested through settings_rules.test_get_game_settings_rules
 #[test]
 fn test_business_rules() {
     assert_eq!(MIN_VALUE, 3);

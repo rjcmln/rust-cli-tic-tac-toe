@@ -1,3 +1,5 @@
+// NOTE 03: Double vector with run-time size.
+
 use crate::types::board_dimension::BoardDimension;
 use crate::types::cell_value::CellValue;
 

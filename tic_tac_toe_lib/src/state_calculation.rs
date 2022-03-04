@@ -1,3 +1,5 @@
+// NOTE 06: Calculation function that serves as a helper to the Game module.
+
 use crate::types::board::Board;
 use crate::types::player_mark::PlayerMark;
 

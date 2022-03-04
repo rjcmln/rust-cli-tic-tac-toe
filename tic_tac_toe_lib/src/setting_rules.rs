@@ -13,6 +13,7 @@ pub struct SettingRule {
     pub default_value: String,
 }
 
+// NOTE 05: JSON representation for Front End to fill controls
 pub fn get_game_settings_rules() -> String {
     let rules = vec![
         SettingRule {
